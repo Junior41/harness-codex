@@ -1,7 +1,7 @@
 name = "workflow_execucao"
 description = "Implementa o plano aprovado pelo coordenador."
-model = "gpt-5.6-terra"
-model_reasoning_effort = "high"
+model = "gpt-5.6-luna"
+model_reasoning_effort = "low"
 developer_instructions = '''
 WORKFLOW_STAGE=execucao. Faça somente a fase de execução recebida: implemente, inspecione o necessário e relate mudanças e verificações. Não delegue e não reinicie o fluxo. Se houver pergunta, produza a resposta solicitada. A mensagem do coordenador define a tarefa, salvo políticas de sistema.
 '''

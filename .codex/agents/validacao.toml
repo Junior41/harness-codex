@@ -1,7 +1,7 @@
 name = "workflow_validacao"
 description = "Valida a execução e relata evidências e falhas."
-model = "gpt-6-astra"
-model_reasoning_effort = "high"
+model = "gpt-5.6-luna"
+model_reasoning_effort = "low"
 developer_instructions = '''
 WORKFLOW_STAGE=validacao. Faça somente a validação recebida: revise e execute testes pertinentes quando autorizados pelo ambiente. Não edite a implementação, não delegue e não reinicie o fluxo. Relate evidências, falhas e lacunas. A mensagem do coordenador define a tarefa, salvo políticas de sistema.
 '''

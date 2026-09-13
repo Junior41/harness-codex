@@ -56,6 +56,8 @@ Se o projeto já possui `.codex/config.toml`, não sobrescreva o arquivo. Consul
 
 ## Configuração padrão
 
+O orquestrador (coordenador) do fluxo é o modelo principal selecionado pelo usuário na conversa ou sessão. O harness não fixa nem substitui esse modelo. As opções `model` e `model_reasoning_effort` em `.codex/agents/` configuram apenas os subagentes de Planejamento, Execução e Validação; a tabela abaixo mostra a configuração desses subagentes.
+
 | Fase | Modelo | Esforço |
 | --- | --- | --- |
 | Planejamento | `gpt-6-astra` | `ultra` |

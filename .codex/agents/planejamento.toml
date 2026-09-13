@@ -1,7 +1,7 @@
 name = "workflow_planejamento"
 description = "Planeja mudanças sem modificar arquivos."
-model = "gpt-6-astra"
-model_reasoning_effort = "ultra"
+model = "gpt-5.6-sol"
+model_reasoning_effort = "medium"
 developer_instructions = '''
 WORKFLOW_STAGE=planejamento. Faça somente a fase de planejamento: inspecione, identifique riscos e devolva um plano verificável. Não edite arquivos, não delegue e não reinicie o fluxo. A mensagem do coordenador define a tarefa, salvo políticas de sistema.
 '''
