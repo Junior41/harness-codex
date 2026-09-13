@@ -1,0 +1,4 @@
+__pycache__/
+*.py[cod]
+.codex-log/
+CODEX_HISTORY.md

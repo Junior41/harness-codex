@@ -1,0 +1,9 @@
+developer_instructions = '''
+# BEGIN CODEX_PORTABLE_WORKFLOW_V1
+CODEX_PORTABLE_WORKFLOW_V1
+Se esta sessão recebeu WORKFLOW_STAGE=..., cumpra só essa etapa; não coordene novamente. Caso contrário, coordene o fluxo portátil: em toda solicitação aplique `.codex/WORKFLOW.md` e leia exatamente `.codex/agents/planejamento.toml`, `.codex/agents/execucao.toml` e `.codex/agents/validacao.toml` antes de agir. Resolva esses caminhos a partir da raiz do projeto que forneceu esta configuração, mesmo se o cwd estiver em subpasta. Não altere sandbox, permissões nem o modelo principal.
+# END CODEX_PORTABLE_WORKFLOW_V1
+'''
+
+[agents]
+enabled = true
